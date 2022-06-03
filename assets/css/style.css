@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2? familia=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+
+/*MENU LATERAL*/
+.navigation
+{
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: .90rem;
+position: relative;
+top: 20px;
+left: 20px;
+bottom: 20px;
+width: 300px;
+}
+
+.navigation ul{
+    position: relative;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100% ;
+    cursor: none;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 70%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    cursor: none;
+}
+
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 45px;
+    line-height: 60px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-columns: 300px 1fr;
+}
+aside.menu{
+    background: #f75776;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    z-index: 4;
+    height: 100%;
+    border-right: 2px solid #f6cf64;
+}
+
+aside.menu header img{
+    width: 280px;
+}
+
+
+aside.menu nav {
+    flex-basis: 100%;
+    padding-left: 1rem;
+    display: block;
+    
+}
+
+/*CURSOR*/
+
+#cursor{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 4px solid #f6eb64;
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.title:hover {
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.title:active{
+    color: #f6eb64;
+    font-weight: 700;
+}
+
+/*COMUNES*/
+
+h1, h2, h3{
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-size: 72px;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+font-size: 24px;
+margin-top: 15px;
+margin-bottom: 2px;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16;
+    line-height: 1.85rem;
+    width: 50%;
+    margin-bottom: 0.3rem;
+    margin-top: 0px;
+    font-variation-settings: 'wght' 380, 'wdth' 100;
+
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    cursor: none;
+    text-align: left;
+    background-color: #fffefd;
+    display: block;
+}
+
+/*MAIN*/
+main{
+    grid-area: 1 / 2 /span 1 / span 1;
+    overflow: auto;
+    padding-bottom: 3rem;
+    position: relative;
+    display: block;
+}
+
+.valores_img{
+    width: 70%;
+}
+
+.valores_img img {
+    width: 80%;
+}
+
+button {
+    border: none;
+    background-color: #f75776;
+    border-radius: 8px;  
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+button a{
+    text-decoration: none;
+    color: #fffefd;
+    font-size: 16px;
+}
+
+button:hover{
+    border: 2px solid #f75776;
+    background-color: #fffefd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+button a:hover{
+    color: #f75776;
+}
+
+.button_nav{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.video{
+    width: 70%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.video video{
+    width: 100%;
+}
+
+/*SECTIONS STARTS*/
+
+section {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.section_start{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid #f6cf64;
+}
+
+.basics_logo{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 2px solid #f6cf64;
+}
+
+.basics_logo h2{
+    color: #f75776;
+    margin-bottom: 0;
+}
+
+.basics_logo .logotipo_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.basics_logo .logotipo_content .logotipo_content_img{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.basics_logo .logotipo_content .logotipo_content_img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.basics_logo .logotipo_content .logotipo_color{
+    display: flex;
+    width: 220px;
+    padding-top: 1rem;
+}
+
+.basics_logo .logotipo_content .logotipo_color img{
+    margin-right: 10px;
+}
+
+
+
+
+
+.section_start h2{
+   color: #f75776;
+   margin-bottom: 0;
+}
+
+.section_content h2 {
+    color: #f75776;
+    margin-bottom: 0;
+}
+
+.section_content{
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    border-bottom: 2px solid #f6cf64;
+}
+
+.section_links{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section_links .puntos{
+    margin-right: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.section_links .puntos a{
+    text-decoration: none;
+    color: #f75776;
+    cursor: none;
+}
+
+.section_links .puntos a:hover{
+    color:#f6eb64;
+    transition: 0.3s;
+}
+
+.section_links .puntos a h2{
+    margin-bottom: 5px;
+}
