@@ -18,6 +18,7 @@ width: 300px;
     position: relative;
     width: 100%;
     padding-left: 5px;
+    margin-top: 0;
 }
 
 .navigation ul li{
@@ -63,7 +64,9 @@ aside.menu{
 }
 
 aside.menu header img{
-    width: 280px;
+    width: 220px;
+    padding-left:2rem;
+    padding-top: 10px;
 }
 
 
